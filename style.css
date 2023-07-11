@@ -1,0 +1,90 @@
+*{
+    font-family: comic sans Ms;
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background-color: #feeafa;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 0;
+    border: 4px solid #a2d2ff;
+    border-radius: 20px;
+    width: 40vw;
+    margin: 30px auto;
+    background-color: #caf0f8;
+}
+h1{
+    font-size: 2rem;
+}
+#taskinp,button{
+    font-size: 1.5rem;
+}
+#ul{
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    /* border: 2px solid black; */
+    width: 80%;
+}
+ul{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding-top: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px 0;
+    
+}
+ul li{
+
+    /* margin: 20px 20px; */
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    height: 15vh;
+
+    display: flex;
+    padding: 0 20px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#checkbox{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.task{
+    display: flex;
+    gap: 0 10px;
+    align-items: center;  
+    overflow: hidden;  
+    width: 68%;
+    /* border: 2px solid white; */
+}
+.task p{
+    /* padding-left: 20px; */
+    text-align: center;
+    color: white;
+    /* font-weight: 700; */
+    font-size: 1.5rem;
+}
+.icons span{
+    padding: 5px 5px;
+    /* border: 2px solid red; */
+    cursor: pointer;
+}
+.completed{
+    display: none;
+}
+
+
